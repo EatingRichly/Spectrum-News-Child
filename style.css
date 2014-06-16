@@ -5,7 +5,7 @@ Description: Child theme for the Spectrum News theme
 Author: <a href="http://www.woothemes.com" title="Visit author homepage">WooThemes</a>
 Author URI:
 Template: spectrum142
-Version: 1.5.9
+Version: 1.5.10
 */
 /**
  * URL = http://eatingrichly.com/wp-content/themes/spectrum142-child-01/style.css
@@ -15,7 +15,7 @@ Version: 1.5.9
  */
 /*csslint ids:false,overqualified-elements:false,import:false,important:false,adjoining-classes:false */
 @import url('../spectrum142/style.css');
-@import url('../spectrum142/custom.css');
+
 
 /**
  * iPhone 5 in portrait & landscape
@@ -25,12 +25,17 @@ Version: 1.5.9
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* Start Mobile */
 #main,#wrapper,#background,#content,#main-nav,#footer-widgets,#credits,#header,#footer,.col-full {
-    width: 100% !important;
+    width: 98% !important;
     height: auto !important;
 }
 #top-nav {
     width: 98% !important;
-    height: 110px !important;
+    height: 130px !important;
+}
+#top-nav .nav-item-right {
+    float: right !important;
+    position: relative;
+    top: 0 !important;
 }
 #loopedSlider {
     width: inherit;
