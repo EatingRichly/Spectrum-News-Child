@@ -5,7 +5,7 @@ Description: Child theme for the Spectrum News theme
 Author: <a href="http://www.woothemes.com" title="Visit author homepage">WooThemes</a>
 Author URI:
 Template: spectrum142
-Version: 1.5.11
+Version: 1.5.12
 */
 
 /**
@@ -86,6 +86,10 @@ and (max-device-width : 568px) { /* Start Mobile */
     width: 100%;
     height: 100%;
 }
+.vine-embed {
+    max-width: 100%;
+}
+
 .nav-entries {
     width:90%;
 }
