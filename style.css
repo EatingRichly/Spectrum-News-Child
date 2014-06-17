@@ -23,77 +23,85 @@ Version: 1.5.13
  * iPhone 5 in portrait & landscape
  */
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px) { /* Start Mobile */
-#main,#wrapper,#background,#content,#main-nav,#footer-widgets,#credits,#header,#footer,.col-full {
-    width: 98% !important;
-    height: auto !important;
-}
-#top-nav {
-    width: 98% !important;
-    height: 130px !important;
-}
-#top-nav .nav-item-right {
-    float: right !important;
-    position: relative;
-    top: 0 !important;
-}
-#loopedSlider {
-    width: inherit;
-}
-.entry img {
-    max-width: 300px;
-    height: auto;
-}
-#topad {
-    display: none; /* Fix This */
-}
-#sidebar {
-    overflow: inherit;
-}
-.col-right {
-    float: none;
-}
-#footer-widgets .block.last {
-    float:none;
-}
-#footer-widgets img {
-    max-width: 275px !important;
-    height: auto;
-}
-.adspace-widget {
-    float: left;
-}
-#footer .inner {
-    width: 300px;
-    margin: 0 auto;
-}
-/**
- *  Add responsive container to embeds
- *  http://alxmedia.se/code/2013/10/make-wordpress-default-video-embeds-responsive/
- */
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
- }
-.video-container iframe, .video-container object, .video-container embed, .video-container video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-.vine-embed {
-    max-width: 100%;
-}
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { /* Start Mobile */
 
-.nav-entries {
-    width:90%;
-}
-.post p.tags {
-    width: 90%;
-}
+    #main,
+    #wrapper,
+    #background,
+    #content,
+    #main-nav,
+    #footer-widgets,
+    #credits,
+    #header,
+    #footer,
+    .col-full {
+        width: 98% !important;
+        height: auto !important;
+    }
+    #top-nav {
+        width: 98% !important;
+        height: 130px !important;
+    }
+    #top-nav .nav-item-right {
+        float: right !important;
+        position: relative;
+        top: 0 !important;
+    }
+    #loopedSlider {
+        width: inherit;
+    }
+    .entry img {
+        max-width: 300px;
+        height: auto;
+    }
+    #topad {
+        display: none; /* Fix This */
+    }
+    #sidebar {
+        overflow: inherit;
+    }
+    .col-right {
+        float: none;
+    }
+    #footer-widgets .block.last {
+        float:none;
+    }
+    #footer-widgets img {
+        max-width: 275px !important;
+        height: auto;
+    }
+    .adspace-widget {
+        float: left;
+    }
+    #footer .inner {
+        width: 300px;
+        margin: 0 auto;
+    }
+    /**
+     *  Add responsive container to embeds
+     *  http://alxmedia.se/code/2013/10/make-wordpress-default-video-embeds-responsive/
+     */
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+     }
+    .video-container iframe, .video-container object, .video-container embed, .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .vine-embed {
+        max-width: 100%;
+    }
+
+    .nav-entries {
+        width:90%;
+    }
+    .post p.tags {
+        width: 90%;
+    }
 }/* End Mobile */
