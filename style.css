@@ -5,11 +5,12 @@ Description: Child theme for the Spectrum News theme
 Author: EatingRichly.com
 Author URI: http://eatingrichly.com/about/#Eric
 Template: spectrum142
-Version: 1.5.13
+Version: 1.5.15
 */
 
 /**
- * URL = http://eatingrichly.com/wp-content/themes/spectrum142-child-01/style.css
+ * NOTE URL = http://eatingrichly.com/wp-content/themes/spectrum142-child-01/style.css
+ * NOTE WordPress CSS Coding Standards = http://make.wordpress.org/core/handbook/coding-standards/css/
  */
 
 /**
@@ -55,7 +56,7 @@ Version: 1.5.13
         height: auto;
     }
     #topad {
-        display: none; /* Fix This */
+        display: none; /* TODO Fix This */
     }
     #sidebar {
         overflow: inherit;
