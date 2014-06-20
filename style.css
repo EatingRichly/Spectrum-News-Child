@@ -24,10 +24,6 @@ Updated: 2014-06-20 -- 2:00pm
 /**
  * Retina Logo
  */
-#logo {
-    width: 100%;
-    text-align: center;
-}
 #logo-regular {
     display: inline-block;
 }
@@ -42,7 +38,10 @@ Updated: 2014-06-20 -- 2:00pm
  */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { /* Start Mobile */
-
+#logo {
+    width: 100%;
+    text-align: center;
+}
     #main,
     #wrapper,
     #background,
