@@ -49,29 +49,14 @@ jQuery(window).load(function(){
 <!--ga-->
 
 <script type="text/javascript">
-
-
-
   var _gaq = _gaq || [];
-
   _gaq.push(['_setAccount', 'UA-29272531-1']);
-
   _gaq.push(['_trackPageview']);
-
-
-
   (function() {
-
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-
   })();
-
-
-
 </script>
 
 <!--/ga-->
@@ -130,45 +115,26 @@ jQuery(window).load(function(){
         <?php } ?>
 
        <span class="nav-item-right">
-
        <a href="<?php $feedurl = get_option('woo_feed_url'); if ( $feedurl ) { echo $feedurl; } else { echo get_bloginfo_rss('rss2_url'); } ?>">
-
        <img src="http://eatingrichly.com/wp-content/uploads/2014/02/ico-rss.png" height="16" width="16" alt="RSS Feed" />
-
        </a>
-
        <a href="https://www.facebook.com/eatingrichly">
-
             <img src="http://eatingrichly.com/wp-content/uploads/2014/02/fb-2014-16x16.png" height="16" width="16" alt="Facebook" />
-
         </a>
-
         <a href="http://twitter.com/eatingrichly">
-
             <img src="http://eatingrichly.com/wp-content/uploads/2014/02/Twitter_logo_blue-16X13.png" height="13" width="16" alt="Twitter Feed" />
-
         </a>
-
         <a href="http://pinterest.com/eatingrichly" style="padding-right:5px;">
-
             <img src="http://eatingrichly.com/wp-content/uploads/2014/02/Pinterest_Favicon-16x16.png" height="16" width="16" alt="Pinterest" />
-
         </a>
-
        </span>
 
 <div class="ericssearchformintheheader">
-
-<form method="get" class="searchform" action="<?php bloginfo('url'); ?>" >
-
+    <form method="get" class="searchform" action="<?php bloginfo('url'); ?>" >
         <input style="position:relative;top: 2px;height:12px;" type="text" class="field s" name="s" value="<?php _e('Search...', 'woothemes') ?>" onfocus="if (this.value == '<?php _e('Search...', 'woothemes') ?>') {this.value = '';}" onblur="if (this.value == '') {this.value = '<?php _e('Search...', 'woothemes') ?>';}" />
-
         <input style="background-color: #D9EDD9;height: 25px;position: relative;top: 4px;" type="submit" class="submit button" name="submit" value="<?php _e('Search', 'woothemes'); ?>" />
-
         <div class="fix"></div>
-
     </form>
-
 </div><!--/ericssearchformintheheader-->
 
     </div><!-- /#top-nav -->
@@ -176,12 +142,7 @@ jQuery(window).load(function(){
 
 
     <div id="header" class="col-full">
-
-
-
         <div id="logo">
-
-
 
         <?php if (get_option('woo_texttitle') <> "true") : $logo = get_option('woo_logo'); ?>
             <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('description'); ?>">
@@ -190,16 +151,12 @@ jQuery(window).load(function(){
             </a>
         <?php endif; ?>
 
-
-
         <?php if( is_singular() ) : ?>
             <span class="site-title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></span>
         <?php else : ?>
             <h1 class="site-title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
         <?php endif; ?>
             <span class="site-description"><?php bloginfo('description'); ?></span>
-
-
 
         </div><!-- /#logo -->
 
@@ -231,17 +188,11 @@ jQuery(window).load(function(){
 
             } else { ?>
 
-
-
                 <?php if ( is_home() OR is_front_page()) $highlight = "page_item current_page_item"; else $highlight = "page_item"; ?>
                 <li class="<?php echo $highlight; ?>"><a href="<?php bloginfo('url'); ?>"><?php _e('Home', 'woothemes') ?></a></li>
                 <?php wp_list_categories('sort_column=menu_order&depth=6&title_li=&exclude='.get_option('woo_cats_exclude')); ?>
 
-
-
             <?php } ?>
-
-
 
         </ul><!-- /#nav -->
         <?php } ?>
