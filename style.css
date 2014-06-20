@@ -73,7 +73,7 @@ Updated: 2014-06-20 -- 2:00pm
         height: auto;
     }
     #topad {
-        display: none; /* TODO Fix This */
+        display: none; /* NOTE hide about box on mobile */
     }
     #sidebar {
         overflow: inherit;
@@ -95,6 +95,9 @@ Updated: 2014-06-20 -- 2:00pm
         width: 300px;
         margin: 0 auto;
     }
+    #commentform {
+    margin: 15px 0 30px 0;
+}
     /**
      *  Add responsive container to embeds
      *  http://alxmedia.se/code/2013/10/make-wordpress-default-video-embeds-responsive/
