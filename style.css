@@ -55,7 +55,7 @@ Updated: 2014-06-20 -- 2:00pm
     }
     #top-nav {
         width: 98% !important;
-        height: 130px !important;
+        padding-bottom: 10px !important;
     }
     #top-nav .nav-item-right {
         float: right !important;
