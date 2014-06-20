@@ -21,6 +21,19 @@ Version: 1.5.15
 @import url('../spectrum142/style.css');
 
 /**
+ * Retina Logo
+ */
+
+#logo-regular {
+    display: inline-block;
+}
+#logo-hidpi {
+    display: none;
+}
+
+
+
+/**
  * iPhone 5 in portrait & landscape
  */
 
@@ -104,5 +117,14 @@ Version: 1.5.15
     }
     .post p.tags {
         width: 90%;
+    }
+    /**
+     *  Retina Logo
+     */
+    #logo-regular {
+        display: none;
+    }
+    #logo-hidpi {
+        display: inline-block;
     }
 }/* End Mobile */
