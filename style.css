@@ -97,7 +97,11 @@ Updated: 2014-06-20 -- 2:00pm
     }
     #commentform {
     margin: 15px 0 30px 0;
-}
+    }
+    #footer-search form input.s {
+    width: 90%;
+    background: url('images/bg-footer-search.jpg') no-repeat scroll 255px center #FFF;
+    }
     /**
      *  Add responsive container to embeds
      *  http://alxmedia.se/code/2013/10/make-wordpress-default-video-embeds-responsive/
