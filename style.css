@@ -39,6 +39,9 @@ Version: 1.5.27
     #logo {
         width: 100%;
     }
+    .er-logo-hidpi {
+    margin: 0 auto;
+}
     #main,
     #wrapper,
     #background,
@@ -137,6 +140,5 @@ Version: 1.5.27
         .er-logo-hidpi {
         background-image: url('http://eatingrichly.com/wp-content/uploads/2014/06/EatingRichly-logo-406x249.png');
         background-size: 203px 124px;
-        margin: 0 auto;
         }
 }/* End Retina Logo */
