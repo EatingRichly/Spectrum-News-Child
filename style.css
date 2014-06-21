@@ -35,10 +35,10 @@ Version: 1.5.25
 /**
  * iPhone 5 in portrait & landscape
  */
-#logo {
-    width: 100%;
-}
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { /* Start Mobile */
+    #logo {
+        width: 100%;
+    }
     #main,
     #wrapper,
     #background,
