@@ -5,7 +5,7 @@ Description: Child theme for the Spectrum News theme
 Author: EatingRichly.com
 Author URI: http://eatingrichly.com/about/#Eric
 Template: spectrum142
-Version: 1.5.23
+Version: 1.5.24
 */
 
 /**
@@ -25,6 +25,8 @@ Version: 1.5.23
  */
 .er-logo-hidpi {
     background-image: url(http://eatingrichly.com/wp-content/uploads/2014/06/EatingRichly-logo-203x124.png);
+    height: 124px;
+    width: 203px;
     background-size: 203px 124px;
 }
 
@@ -35,10 +37,6 @@ Version: 1.5.23
  */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { /* Start Mobile */
-#logo {
-    width: 100%;
-    text-align: center;
-}
     #main,
     #wrapper,
     #background,
@@ -129,7 +127,10 @@ Version: 1.5.23
  *  Retina Logo
  */
     .er-logo-hidpi {
-        background-image: url(http://eatingrichly.com/wp-content/uploads/2014/06/EatingRichly-logo-406x249.png);
-        background-size: 203px 124px;
+    background-image: url('http://eatingrichly.com/wp-content/uploads/2014/06/EatingRichly-logo-406x249.png');
+    height: 124px;
+    width: 203px;
+    background-size: 203px 124px;
+    margin: 0 auto;
     }
 }/* End Mobile */
