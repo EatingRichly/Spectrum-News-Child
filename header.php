@@ -146,7 +146,7 @@ jQuery(window).load(function(){
 
         <?php if (get_option('woo_texttitle') <> "true") : $logo = get_option('woo_logo'); ?>
             <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('description'); ?>">
-                <img id="logo-regular" alt="Eating richly even when you're broke" src="http://eatingrichly.com/wp-content/uploads/2014/06/EatingRichly-logo-203x124.png" />
+                <img id="logo-regular" width="203" height="124" alt="Eating richly even when you're broke" src="http://eatingrichly.com/wp-content/uploads/2014/06/EatingRichly-logo-203x124.png" />
                 <img id="logo-hidpi" width="203" height="124" alt="Eating richly even when you're broke" src="http://eatingrichly.com/wp-content/uploads/2014/06/EatingRichly-logo-406x249.png" />
             </a>
         <?php endif; ?>
