@@ -15,8 +15,8 @@ function er_embed_html( $html ) {
  * Proper way to enqueue scripts and styles
  */
 function custom_styles() {
-    wp_register_style( 'er_child_theme', get_stylesheet_directory_uri() . '/style.css' , filemtime( get_stylesheet_directory() . '/style.css' ), null, 'screen' );
-    //wp_register_style( 'er_child_theme', get_stylesheet_uri(), false, '1.5.22', 'all' );
+
+    wp_register_style( 'er_child_theme', get_stylesheet_uri(), false, '1.5.22', 'all' );
     wp_enqueue_style( 'er_child_theme' );
 }
 
