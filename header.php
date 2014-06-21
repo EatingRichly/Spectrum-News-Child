@@ -9,7 +9,6 @@
 <title><?php woo_title(); ?></title>
 <?php woo_meta(); ?>
 
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" media="screen" />
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php $feedurl = get_option('woo_feed_url'); if ( $feedurl ) { echo $feedurl; } else { echo get_bloginfo_rss('rss2_url'); } ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
