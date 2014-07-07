@@ -128,6 +128,9 @@ Version: 1.5.27
     .post p.tags {
         width: 90%;
     }
+    .dd_outer {
+        display: none;
+    }
 }/* End Mobile */
 /**
  *  Retina Logo
