@@ -17,8 +17,10 @@
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' );  ?>
 
 
-
-<script type='text/javascript' src='http://eatingrichly.ziplist.com/javascripts/pt_include.js'></script> <link charset='utf-8' href='http://www.zlcdn.com/stylesheets/minibox/generic.css' rel='stylesheet' type='text/css' />
+<?php /*
+<script type='text/javascript' src='http://eatingrichly.ziplist.com/javascripts/pt_include.js'></script>
+<link charset='utf-8' href='http://www.zlcdn.com/stylesheets/minibox/generic.css' rel='stylesheet' type='text/css' />
+    */?>
 
 <?php wp_head(); ?>
 <?php woo_head(); ?>
