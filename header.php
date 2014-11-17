@@ -17,8 +17,10 @@
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' );  ?>
 
 
-
-<script type='text/javascript' src='http://eatingrichly.ziplist.com/javascripts/pt_include.js'></script> <link charset='utf-8' href='http://www.zlcdn.com/stylesheets/minibox/generic.css' rel='stylesheet' type='text/css' />
+<?php /*
+<script type='text/javascript' src='http://eatingrichly.ziplist.com/javascripts/pt_include.js'></script>
+<link charset='utf-8' href='http://www.zlcdn.com/stylesheets/minibox/generic.css' rel='stylesheet' type='text/css' />
+    */?>
 
 <?php wp_head(); ?>
 <?php woo_head(); ?>
@@ -47,15 +49,15 @@ jQuery(window).load(function(){
 
 <!--ga-->
 
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-29272531-1']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29272531-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
 
 <!--/ga-->
@@ -120,10 +122,10 @@ jQuery(window).load(function(){
        <a href="https://www.facebook.com/eatingrichly">
             <img src="http://eatingrichly.com/wp-content/uploads/2014/02/fb-2014-16x16.png" height="16" width="16" alt="Facebook" />
         </a>
-        <a href="http://twitter.com/eatingrichly">
+        <a href="https://twitter.com/eatingrichly">
             <img src="http://eatingrichly.com/wp-content/uploads/2014/02/Twitter_logo_blue-16X13.png" height="13" width="16" alt="Twitter Feed" />
         </a>
-        <a href="http://pinterest.com/eatingrichly" style="padding-right:5px;">
+        <a href="http://www.pinterest.com/EatingRichly/" style="padding-right:5px;">
             <img src="http://eatingrichly.com/wp-content/uploads/2014/02/Pinterest_Favicon-16x16.png" height="16" width="16" alt="Pinterest" />
         </a>
        </span>

@@ -28,12 +28,7 @@
 <hr style="width:80%" />
                       <em>Posts may contain affiliate links. If you purchase a product through an affiliate link, your costs will be the same but Eating Richly Even When You're Broke will receive a small commission. This helps us to cover some of the costs for this site. Thank you so much for your support!</em>
 <div style="padding-top:20px;">
-<?php // echo do_shortcode('[fbshare float="left"]'); ?>
-<?php // echo do_shortcode('[stumbleupon float="left"]'); ?>
-<?php // echo do_shortcode('[pinterest float="left"]'); ?>
-<?php // echo do_shortcode('[twitter float="left" style="horizontal"]'); ?>
 
-<div class='zl-recipe-link'> <a class='small-butn-link' href='javascript:void(0);' onmouseup='getZRecipe(this, "eatingrichly", ""); return false;' title='Add this recipe to your ZipList, where you can store all of your favorite web recipes in one place and easily add ingredients to your shopping list.'><span>Add this recipe to ZipList!</span></a> </div>
 <div style="clear:both;"></div>
 </div>
                     </div>
