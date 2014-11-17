@@ -122,10 +122,10 @@ jQuery(window).load(function(){
        <a href="https://www.facebook.com/eatingrichly">
             <img src="http://eatingrichly.com/wp-content/uploads/2014/02/fb-2014-16x16.png" height="16" width="16" alt="Facebook" />
         </a>
-        <a href="http://twitter.com/eatingrichly">
+        <a href="https://twitter.com/eatingrichly">
             <img src="http://eatingrichly.com/wp-content/uploads/2014/02/Twitter_logo_blue-16X13.png" height="13" width="16" alt="Twitter Feed" />
         </a>
-        <a href="http://pinterest.com/eatingrichly" style="padding-right:5px;">
+        <a href="http://www.pinterest.com/EatingRichly/" style="padding-right:5px;">
             <img src="http://eatingrichly.com/wp-content/uploads/2014/02/Pinterest_Favicon-16x16.png" height="16" width="16" alt="Pinterest" />
         </a>
        </span>
