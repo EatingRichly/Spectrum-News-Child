@@ -5,7 +5,7 @@ Description: Child theme for the Spectrum News theme
 Author: EatingRichly.com
 Author URI: http://eatingrichly.com/about/#Eric
 Template: spectrum142
-Version: 1.5.29
+Version: 1.5.30
 */
 
 /**
@@ -146,3 +146,8 @@ Version: 1.5.29
         background-size: 203px 124px;
         }
 }/* End Retina Logo */
+/* Center YouTube Videos */
+.video-container, .html5-video-container {
+    text-align: center;
+    display: block;
+}
