@@ -25,7 +25,7 @@ get_header();
 
                 </div><!-- /.post -->
 
-                <?php // $comm = get_option('woo_comments'); if ( $comm == "page" || $comm == "both" ) : ?>
+                <?php $comm = get_option('woo_comments'); if ( $comm == "page" || $comm == "both" ) : ?>
                     <?php // comments_template(); ?>
                 <?php endif; ?>
 
