@@ -8,6 +8,7 @@
 
     ga('create', 'UA-29272531-1', 'auto');
     ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
     ga('send', 'pageview');
 
 </script>
