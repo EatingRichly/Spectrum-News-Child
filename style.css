@@ -5,7 +5,7 @@ Description: Child theme for the Spectrum News theme
 Author: EatingRichly.com
 Author URI: http://eatingrichly.com/about/#Eric
 Template: spectrum142
-Version: 1.5.36
+Version: 1.5.37
 */
 
 /**
@@ -29,8 +29,6 @@ Version: 1.5.36
     width: 203px;
     background-size: 203px 124px;
 }
-
-
 
 /**
  * iPhone 5 in portrait & landscape
@@ -132,6 +130,7 @@ Version: 1.5.36
         display: none;
     }
 }/* End Mobile */
+
 /**
  *  Retina Logo
  *  http://ivomynttinen.com/blog/a-guide-for-creating-a-better-retina-web/
