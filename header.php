@@ -144,13 +144,13 @@ jQuery(window).load(function(){
 
 
 
-        <?php if (get_option('woo_ad_top') == 'true') { ?>
+        <?php // if (get_option('woo_ad_top') == 'true') { ?>
         <div id="topad">
             <?php // include (TEMPLATEPATH . "/ads/top_ad.php"); ?>
             <div style="float: left;background-color: white;width: 275px;height: 100px;font-size: 10pt;margin-top: 15px"><h3 style="color: #267026;text-align: center">Welcome to Eating Richly!</h3>  I’m Diana Johnson, a penny pinching cooking instructor and recipe developer who specializes in delicious, easy and healthy recipes on a shoestring budget.</div>
                 <img style="padding-top:5px" src="http://eatingrichly.com/wp-content/uploads/2012/02/diana-headshot-1-tighter-125x125.png" width="125" height="125" alt="Diana Johnson" nopin = "nopin"/>
            </div><!-- /#topad -->
-        <?php } ?>
+        <?php // } ?>
 
 
 
