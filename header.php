@@ -5,7 +5,7 @@
 
 <meta name="readability-verification" content="vkbsy3e9WbsYyJa56J5h8NTf9SVLKznNKsZ5FMQP" />
 <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <title><?php woo_title(); ?></title>
 <?php woo_meta(); ?>
